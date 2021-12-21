@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="game.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper and Scissor</h1>
+        <div class="box" id='final'>
+            <img id='rock' src="stone.jpg"  height=150px width=150px alt="" onclick="rpsgame(this)" >
+            <img id='paper' src="paper.jpg"  height=150px width=150px alt="" onclick="rpsgame(this)" >
+            <img id='scissor' src="scissor.jpg"  height=150px width=150px alt="" onclick="rpsgame(this)" >
+
+
+        </div>
+    </div>
+    <div class="reset">
+        <button class="btn" onclick="reset()">Reset</button>
+    </div>
+    
+    <script src="game.js"></script>
+</body>
+</html>
